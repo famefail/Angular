@@ -1,0 +1,15 @@
+.box-title{
+padding: 10px;
+border-bottom: 1px solid gainsboro;
+background-color: white;
+border-top:3px solid rgb(0,123,255);
+box-shadow: 0px 0px 0px 2px rgb(232,236,241);
+}
+.box-text{
+  padding:15px;
+  background-color: white;
+}
+.box{
+  border-bottom: 1px solid gainsboro;
+ width: 100%;
+}

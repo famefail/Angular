@@ -1,0 +1,36 @@
+div{
+    text-align: center;
+}
+li{
+    padding-bottom: 1%;
+    float: left;
+    padding-left: 20px;
+   list-style-type: none;
+
+}
+body{
+    background-color: yellow;
+     font-size: 30px;
+     padding-bottom: 41px;
+}
+h2{
+    font-size: 50px;
+    background-color: black;
+    color:white;
+    margin-top: 5%;
+    margin-bottom:5%;
+}
+ul{
+    padding-top: 4%; 
+    padding-left: 32%;
+}
+img{
+    width: 25%;
+    height: 25%;
+    padding-left: 100px;
+    padding-right: 20px;
+}
+.sql{
+    width: 11%;
+    height: 11%;
+}

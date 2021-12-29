@@ -1,0 +1,13 @@
+div{
+   border: 1px solid gainsboro;
+    width: 250px;
+    padding:5px;
+    display: inline-block;
+  color: aliceblue;
+  
+}
+footer{
+    text-align: center;
+    border-top: 1px solid;
+    padding: -5px;
+}

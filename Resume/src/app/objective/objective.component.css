@@ -1,0 +1,23 @@
+div{
+    padding-top: 4%;
+    text-align: center;
+   
+}
+ul{
+    padding: 2% 0 0 30%;
+}
+li{
+    padding-bottom: 1%;
+}
+body{
+     background-color: yellow;
+     font-size: 25px;
+     padding-bottom: 41px;
+}
+h2{
+    font-size: 50px;
+    background-color: black;
+    color:white;
+    margin-top: 5%;
+    margin-bottom:5%;
+}

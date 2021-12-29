@@ -1,0 +1,15 @@
+h4{
+    text-align: center;
+}
+p{
+    padding:0 5% 0 5%;
+    text-align: center;
+}
+.col-x1-3{
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.col-12{
+    flex: 0 0 100%;
+    max-width: 100%;
+}

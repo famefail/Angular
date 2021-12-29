@@ -1,0 +1,31 @@
+.new-block{
+    border: 1px solid rgb(232,236,241);
+  width: 100%;
+  background-color: white;
+  border-top:3px solid rgb(0,123,255);
+ 
+}
+.new-title{
+    border-bottom: 1px solid rgb(232,236,241);;
+   padding: 10px;
+  
+}
+.new-col{
+    width: 30%;
+    display: inline-block;
+    border: 1px solid rgb(232,236,241);
+    margin: 10px; 
+    background-color: white;
+   
+}
+.new-col-title{
+     padding:20px;
+    border-bottom: 1px solid rgb(232,236,241);
+    background-color: rgb(217, 237, 247);
+    color:rgb(60, 167, 219);
+  
+}
+.new-col-content{
+    padding: 10px;
+    background-color: white;
+}

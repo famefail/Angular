@@ -1,0 +1,51 @@
+
+<div>
+
+<ul>
+  <input for = "'search'"/>
+  <li><a href="#Dashboard">Dashboard</a></li>
+  <li><a href="#Category">Catalog</a></li>
+  <li><a href="#Sales">Sales</a></li>
+  <li><a href="#Customers">Customers</a></li>
+  <li><a href="#Promotions">Promotions</a></li>
+  <li><a href="#Content manager">Content manager</a></li>
+  <li><a href="#Configuration">Configuration</a></li>
+  <li><a href="#System">System</a></li>
+  <li><a href="#Reports">Reports</a></li>
+  <li><a href="#Help">Help</a></li>
+
+</ul>
+<div class = "bg2">
+<body class = "bg">
+  <h1 style="font-size: 20px;">Dashboard</h1>
+  <app-box [title] = "'Start accepting orders'">
+    <app-start></app-start>
+    
+  </app-box>
+  &nbsp;
+<app-dashboard></app-dashboard>
+
+&nbsp;
+
+<app-box [title] = "' Common statistics'">
+
+    <app-static [score] = "'5'" [text] = "'Order'"style = "background-color:rgb(83, 190, 234);display:inline-block;"></app-static>
+    
+    <app-static [score] = "'0'" [text] = "'Pending return requests'"style = "background-color:rgb(231, 159, 59);display:inline-block;"></app-static>
+    
+    <app-static [score] = "'7'" [text] = "'Registered customers'"style = "background-color:rgb(73, 164, 97);display:inline-block;"></app-static>   
+    
+    <app-static [score] = "'1'" [text] = "'Low stock products'"style = "background-color:rgb(206, 85, 66);display:inline-block;" ></app-static>
+
+</app-box>
+
+ <br>
+
+<app-box [title] = "'Order totals'">
+
+    <app-order [text] = "'boy'"></app-order>
+    
+</app-box>
+</body>
+</div>
+</div>
